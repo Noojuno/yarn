@@ -1,0 +1,5 @@
+CLASS pb
+	FIELD b publicKey Ljava/security/PublicKey;
+	FIELD c data [B
+	METHOD c getPublicKey ()Ljava/security/PublicKey;
+	METHOD d getData ()[B

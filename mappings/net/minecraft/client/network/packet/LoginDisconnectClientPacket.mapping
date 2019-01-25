@@ -1,0 +1,5 @@
+CLASS pd net/minecraft/client/network/packet/LoginDisconnectClientPacket
+	FIELD a reason Ljc;
+	METHOD <init> (Ljc;)V
+		ARG 1 reason
+	METHOD b getTextComponent ()Ljc;
