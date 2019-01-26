@@ -1,4 +1,9 @@
 CLASS apk net/minecraft/entity/mob/AbstractSkeletonEntity
 	FIELD b AIMING Lps;
+	FIELD c bowAttackGoal Lakj;
+	FIELD d meleeAttackGoal Lajt;
 	METHOD <init> (Lahg;Lbcl;)V
 		ARG 1 type
+	METHOD dC selectCombatGoal ()V
+	METHOD l getStepSound ()Lxr;
+	METHOD u getArrow (F)Larn;

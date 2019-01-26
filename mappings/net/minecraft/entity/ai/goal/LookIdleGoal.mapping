@@ -1,0 +1,5 @@
+CLASS akf net/minecraft/entity/ai/goal/LookIdleGoal
+	FIELD a entity Lahm;
+	FIELD b lookX D
+	FIELD c lookZ D
+	FIELD d idleTimer I

@@ -1,0 +1,13 @@
+CLASS ajq net/minecraft/entity/ai/goal/LookAtEntityGoal
+	FIELD a entity Lahm;
+	FIELD b closestTarget Lahc;
+	FIELD c maxDistance F
+	FIELD d targetClass Ljava/lang/Class;
+	FIELD f startChance F
+	METHOD <init> (Lahm;Ljava/lang/Class;F)V
+		ARG 2 targetClass
+		ARG 3 maxDistance
+	METHOD <init> (Lahm;Ljava/lang/Class;FF)V
+		ARG 2 targetClass
+		ARG 3 maxDistance
+		ARG 4 chance

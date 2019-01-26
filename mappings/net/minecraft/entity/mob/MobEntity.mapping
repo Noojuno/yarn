@@ -68,6 +68,7 @@ CLASS ahm net/minecraft/entity/mob/MobEntity
 		ARG 0 stack
 	METHOD f setTarget (Lahl;)V
 	METHOD n setCanPickUpLoot (Z)V
+	METHOD o initGoals ()V
 	METHOD o setAiDisabled (Z)V
 	METHOD p createBodyControl ()Laii;
 	METHOD p setLeftHanded (Z)V

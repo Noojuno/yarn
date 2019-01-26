@@ -1,0 +1,4 @@
+CLASS ali net/minecraft/entity/ai/goal/OwnerHurtGoal
+	FIELD a entity Lahy;
+	FIELD b target Lahl;
+	FIELD c attackTime I

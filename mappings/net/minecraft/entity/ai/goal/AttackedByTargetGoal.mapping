@@ -1,0 +1,6 @@
+CLASS alb net/minecraft/entity/ai/goal/AttackedByTargetGoal
+	FIELD a callsForReinforcements Z
+	FIELD b lastAttacked I
+	METHOD a setTarget (Lahs;Lahl;)V
+	METHOD g ()V
+		ARG 1 range

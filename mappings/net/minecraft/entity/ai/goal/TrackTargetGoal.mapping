@@ -5,6 +5,7 @@ CLASS alk net/minecraft/entity/ai/goal/TrackTargetGoal
 	FIELD d timeWithoutVisibility I
 	FIELD e entity Lahs;
 	FIELD f checkVisibility Z
+	FIELD g targetEntity Lahl;
 	FIELD h maxTimeWithoutVisibility I
 	METHOD <init> (Lahs;Z)V
 		ARG 1 entity

@@ -162,6 +162,7 @@ CLASS ahc net/minecraft/entity/Entity
 	METHOD aH getSavedEntityId ()Ljava/lang/String;
 	METHOD aI isValid ()Z
 	METHOD aJ isInsideWall ()Z
+	METHOD aK updateRiddenEntity ()V
 	METHOD aL getHeightOffset ()D
 	METHOD aM getMountedHeightOffset ()D
 	METHOD aO removeAllPassengers ()V

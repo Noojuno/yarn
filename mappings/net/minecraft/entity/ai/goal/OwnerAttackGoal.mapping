@@ -1,0 +1,3 @@
+CLASS alj net/minecraft/entity/ai/goal/OwnerAttackGoal
+	FIELD a entity Lahy;
+	FIELD b target Lahl;
