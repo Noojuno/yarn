@@ -1,0 +1,4 @@
+CLASS aix net/minecraft/entity/ai/goal/CatSitGoal
+	FIELD f catEntity Lamj;
+	METHOD <init> (Lamj;D)V
+		ARG 2 speed
