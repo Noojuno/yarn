@@ -1,15 +1,23 @@
 CLASS alo net/minecraft/entity/ai/pathing/EntityNavigation
 	FIELD a entity Lahm;
 	FIELD b world Lbcl;
+	FIELD c path Lcid;
+	FIELD d speed D
 	FIELD e tickCount I
 	FIELD m idle Z
+	FIELD o pathNodeMaker Lcic;
 	FIELD p followRange Laia;
+	FIELD q endPosition Let;
 	FIELD r pathNodeNavigator Lcif;
 	METHOD a createPathNodeNavigator ()Lcif;
 	METHOD a findPathTo (DDD)Lcid;
 	METHOD a startMovingTo (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 		ARG 7 speed
 	METHOD a findPathTo (Lahc;)Lcid;
+		ARG 3 followRange
 	METHOD a startMovingTo (Lahc;D)Z
 		ARG 2 speed
 	METHOD a startMovingAlong (Lcid;D)Z
@@ -17,7 +25,14 @@ CLASS alo net/minecraft/entity/ai/pathing/EntityNavigation
 	METHOD a isValidPosition (Let;)Z
 	METHOD b isAtValidPosition ()Z
 	METHOD b findPathTo (Let;)Lcid;
+		ARG 2 followRange
 	METHOD d tick ()V
+	METHOD d setCanSwim (Z)V
+	METHOD i getEndPosition ()Let;
 	METHOD j getFollowRange ()F
 	METHOD k isIdle ()Z
+	METHOD m getPath ()Lcid;
+	METHOD p isFinished ()Z
 	METHOD r isInLiquid ()Z
+	METHOD s getPathNodeMaker ()Lcic;
+	METHOD t canSwim ()Z

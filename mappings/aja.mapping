@@ -1,0 +1,9 @@
+CLASS aja
+	FIELD a entity Lahs;
+	FIELD b endX D
+	FIELD c endY D
+	FIELD d endZ D
+	FIELD e speed D
+	FIELD f world Lbcl;
+	METHOD <init> (Lahs;D)V
+		ARG 2 speed

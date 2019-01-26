@@ -1,5 +1,6 @@
 CLASS aso net/minecraft/entity/raid/RaiderEntity
 	CLASS aso$a PickupBannerAsLeaderGoal
+		FIELD b raiderEntity Laso;
 	FIELD bC hasRaidGoal Z
 	FIELD bD outOfRaidCounter I
 	FIELD b OBTAINABLE_ILLAGER_BANNER_ITEM Ljava/util/function/Predicate;
