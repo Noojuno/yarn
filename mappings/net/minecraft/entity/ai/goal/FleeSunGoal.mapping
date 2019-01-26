@@ -1,4 +1,4 @@
-CLASS aja
+CLASS aja net/minecraft/entity/ai/goal/FleeSunGoal
 	FIELD a entity Lahs;
 	FIELD b endX D
 	FIELD c endY D
@@ -7,3 +7,4 @@ CLASS aja
 	FIELD f world Lbcl;
 	METHOD <init> (Lahs;D)V
 		ARG 2 speed
+	METHOD g findShade ()Lcmr;

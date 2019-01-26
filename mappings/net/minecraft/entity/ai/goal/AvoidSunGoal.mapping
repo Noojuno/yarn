@@ -1,0 +1,2 @@
+CLASS akn net/minecraft/entity/ai/goal/AvoidSunGoal
+	FIELD a mobEntity Lahs;
